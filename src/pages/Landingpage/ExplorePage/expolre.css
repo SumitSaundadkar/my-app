@@ -1,5 +1,5 @@
 .btn-outline-primary{
-    color: white;
+    color: var(--primary-font-colour);
     border-color: var(--hover-bg);
 }
 .btn-outline-primary:hover{

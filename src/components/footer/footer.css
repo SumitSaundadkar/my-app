@@ -1,5 +1,5 @@
 .page-footer{
-    color: #fff;
+    color: var(--primary-font-colour);
     display: flex;
     justify-content: space-around;
     margin: 3rem 0 1rem;
@@ -13,5 +13,5 @@
     gap: 2rem;
 }
 .social-connecting-links{
-    color: whitesmoke;
+    color: var(--primary-font-colour);
 }

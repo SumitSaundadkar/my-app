@@ -1,5 +1,4 @@
 .sidebar_container{
-   color: aliceblue;
    justify-content: center;
    align-items: center;
     width: 10%;
@@ -10,9 +9,7 @@
     grid-gap: 2rem;
     gap: 1rem;
     padding-top: 2rem;
-    background-color: var(--hover-bg);
     border-radius: 10px 10px 10px 10px;
-    
 }
 .sidebar-links{
     display: flex;
@@ -21,8 +18,13 @@
     grid-gap: 4px;
     gap: 4px;
     cursor: pointer;
-    color: #fff;
-   
+    color: var(--primary-font-colour);
+}
+.sidebar-links p{
+    color: var(--primary-font-colour);
+}
+.sidebar-links,p:hover{
+    color: var( --hover-bg);
 }
 @media only screen and (max-width: 600px) {
     
