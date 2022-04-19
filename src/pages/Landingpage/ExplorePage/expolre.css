@@ -1,9 +1,9 @@
 .btn-outline-primary{
     color: white;
-    border-color: blueviolet;
+    border-color: var(--hover-bg);
 }
 .btn-outline-primary:hover{
-    background-color:blueviolet;
+    background-color:var(--hover-bg)
 }
 .chips_container{
     display: flex;

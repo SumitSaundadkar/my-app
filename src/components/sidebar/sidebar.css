@@ -10,7 +10,7 @@
     grid-gap: 2rem;
     gap: 1rem;
     padding-top: 2rem;
-    background-color: blueviolet;
+    background-color: var(--hover-bg);
     border-radius: 10px 10px 10px 10px;
     
 }

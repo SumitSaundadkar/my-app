@@ -4,7 +4,7 @@ header{
     align-items: center;
     width: 100%;
     height: 10vh;
-    background-color: black;
+   
 }
 
  ul li{
@@ -15,14 +15,18 @@ header{
     font-size: xx-large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
-    color:blueviolet
+    color:var(--hover-bg);
 }
 .searchbar{
     width: 25rem;
     height: 5vh;
     background-color: black;
     border-radius: 10px;
-    border-color:blueviolet;
+    border-color:var(--hover-bg);
+}
+.btn-primary{
+    color: white;
+    background-color: var(--hover-bg);
 }
 @media only screen and (max-width: 600px) {
     
@@ -40,14 +44,14 @@ header{
         height: 3vh;
         background-color: black;
         border-radius: 10px;
-        border-color:blueviolet;
+        border-color:var(--hover-bg);
         margin-left: -20px;
       
     }
     .logo{
         font-size: large;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color:blueviolet;
+        color:var(--hover-bg);
        
     }
     ul li{

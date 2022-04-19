@@ -1,5 +1,6 @@
 import {NavBar} from '../../components/Navbar/Navbar';
 import "../Landingpage/landing.css";
+import { Footer } from '../../components/footer/Fotter';
 import {Link} from "react-router-dom";
 
 const LandingPage=()=>{
@@ -16,17 +17,8 @@ const LandingPage=()=>{
               
               </div>
             </div>
-            <footer className='page-footer'>
-               <div className='page_footer_linkbar'>
-               <a href="#top" className='social-connecting-links'><i class="fa-brands fa-github"></i></a>
-               <a href="#top" className='social-connecting-links'> <i class="fa-brands fa-linkedin-in"></i></a>
-               <a href="#top" className='social-connecting-links'> <i class="fa-brands fa-twitter"></i></a>
+            <Footer/>
             
-               
-               </div>
-            
-            
-            </footer>
       </div>
         
     )
