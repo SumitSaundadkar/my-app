@@ -1,0 +1,41 @@
+.btn-outline-primary{
+    color: var(--primary-font-colour);
+    border-color: var(--hover-bg);
+}
+.btn-outline-primary:hover{
+    background-color:var(--hover-bg)
+}
+.chips_container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    left: 15%;
+    top:15%;
+ }
+ @media only screen and (max-width: 600px){
+
+    html, body {
+        overflow-x: hidden;
+      }
+    
+
+    .chips_container{
+        display: flex;
+        justify-content:space-around;
+        position: absolute;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        height: 15vh;
+        top: 40%;
+         left:0;
+      
+        
+     }
+     
+
+ }
