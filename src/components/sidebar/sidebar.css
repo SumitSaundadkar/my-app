@@ -1,7 +1,7 @@
 .sidebar_container{
    justify-content: center;
    align-items: center;
-    width: 10%;
+    width: 15%;
     height: max-content;
     display: flex;
     flex-direction: column;
