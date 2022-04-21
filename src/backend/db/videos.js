@@ -19,6 +19,7 @@ export const videos = [
     date: "Aug 13, 1999",
     embedLink: "https://youtu.be/zSCevtX7ud0",
     category:"Hindi",
+
   },
   {
     id: 3,
@@ -152,12 +153,4 @@ export const videos = [
     category:"Documentry",
   },
   
-  {
-    id: 17,
-    title: "A. R. RAHMAN || MEGA ICON || NATIONAL GEOGRAPHY || HINDI BIOGRAPHY",
-    channel: "AR WORLD",
-    date: "Aug 04, 2020",
-    embedLink: "https://youtu.be/YppvZNRvJIc",
-    category:"Documentry",
-  },
-];
+  }
