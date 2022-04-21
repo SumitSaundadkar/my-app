@@ -20,6 +20,7 @@ export const videos = [
   },
 
   {
+
     _id: uuid(),
     thumbnailImg: "https://img.youtube.com/vi/ITc4T8DfxFA/maxresdefault.jpg",
     videoLink: "https://www.youtube.com/embed/ITc4T8DfxFA",
@@ -147,3 +148,5 @@ export const videos = [
   },
   
 ];
+
+
