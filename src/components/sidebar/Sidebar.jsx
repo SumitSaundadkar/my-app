@@ -15,10 +15,10 @@ const SideBar=()=>{
          <Link to="/platlist">
              <span className="sidebar-links" ><i class="fa-solid fa-folder-plus fa-md"></i><p>Playlist</p></span>
          </Link>
-         <Link to="/like">
+         <Link to="/Like">
                <span className="sidebar-links" ><i class="fa-solid fa-heart fa-md"></i><p>Like</p></span>
          </Link>
-         <Link to="watch">
+         <Link to="/watch">
            <span className="sidebar-links" ><i class="fa-solid fa-clock fa-md"></i><p>Watch Later</p></span></Link>
          <Link to="/history">  
            <span className="sidebar-links" ><i class="fa-solid fa-clock-rotate-left fa-md"></i><p>History</p></span>

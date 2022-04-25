@@ -21,6 +21,20 @@ const videoReduceFun=(videoListState,action)=>{
         ...videoListState,
         history: [],
       };
+      case "LIKE":
+        return {
+          ...videoListState,
+          likedVideo: videoListState.likedVideo.includes(action.payload)
+            ? videoListState.likedVideo.filter((video) => video !== action.payload)
+            : [...videoListState.likedVideo, action.payload],
+        };
+        case "WATCH_LATER":
+      return {
+        ...videoListState,
+        watchLater: videoListState.watchLater.includes(action.payload)
+          ? videoListState.watchLater.filter((video) => video !== action.payload)
+          : [...videoListState.watchLater, action.payload],
+      };
           default:
               return {
                   videoListState
