@@ -14,7 +14,7 @@
 .watch_video{
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 1rem;
     position: absolute;
     top: 15%;
     

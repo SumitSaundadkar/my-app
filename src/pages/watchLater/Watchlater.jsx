@@ -13,7 +13,7 @@ const WatchLaterPage=()=>{
              <NavBar/>
              <SideBar/>
            <div className='watch_container'>
-             <h1>Watche Later</h1>
+             <h1>Watch Later</h1>
              <div className='watch_video'>
              { watchLaterList.map((video)=>(
                  <VideoCard video={video}/>
