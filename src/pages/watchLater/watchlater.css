@@ -1,0 +1,41 @@
+.watch_container{
+    display:flex;
+     width: 75%;
+    height: 25rem;
+     padding: 1rem;
+     flex-direction: row;
+     gap: 10px;
+     position: absolute;
+     flex-wrap: wrap;
+     top: 15%;
+     left: 18%;
+     color: var(--hover-bg);
+}
+.watch_video{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    position: absolute;
+    top: 15%;
+    
+    
+
+}
+@media only screen and (max-width: 600px){
+    .watch_container{
+        top: 35%;
+        left: 2%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 5%;
+        
+    }
+    h1{
+       font-size: 1.1rem;
+       margin: 5px; 
+    }
+    .watch_video{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}

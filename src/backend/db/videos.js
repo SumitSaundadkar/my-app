@@ -17,6 +17,7 @@ export const videos = [
     category: "concert",
     views: "44k",
     date: "29 Dec 2018",
+   
   },
 
   {
@@ -45,7 +46,7 @@ export const videos = [
     premiumCreator: true,
     category: "Tamil",
     views: "55k",
-    date: " 01 may 2019",
+    date: " 01 May 2019",
   },
   
   {

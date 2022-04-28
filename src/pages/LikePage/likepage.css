@@ -1,0 +1,43 @@
+.Like_container{
+    display:flex;
+     width: 75%;
+    height: 25rem;
+     padding: 1rem;
+     flex-direction: row;
+     gap: 10px;
+     position: absolute;
+     flex-wrap: wrap;
+     top: 15%;
+     left: 18%;
+     color: var(--hover-bg);
+}
+.like_video{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    position: absolute;
+    top: 15%;
+    
+    
+
+}
+@media only screen and (max-width: 600px){
+    .Like_container{
+        top: 35%;
+        left: 2%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 5%;
+        
+    }
+    h1{
+       font-size: 1.6rem;
+       margin: 5px; 
+    }
+    .like_video{
+        flex-direction: column;
+}
+
+
+
+}
