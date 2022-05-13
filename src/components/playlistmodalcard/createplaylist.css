@@ -13,15 +13,12 @@
 .empty_list{
     color: white;
     animation: forwards;
-    
 }
 .thumbnail-img{
     width: 100%;
     height: max-content;
     border-radius: 10px;
-   
-    
-}
+   }
 
 @media only screen and (max-width:600px){
     .playlist_container{
@@ -45,8 +42,6 @@
         width: 16rem;
         height: max-content;
         border-radius: 10px;
-       
-        
     }
 
 }

@@ -73,7 +73,7 @@ const Video = () => {
         </div>
 
         <div className="suggest_video_container">
-          <h2 className="suggest_heading">Suggeset Video</h2>
+          <h2 className="suggest_heading">Suggested Video</h2>
           {suggestedVideoList.map((video) => {
             return <HorizontalCard key={video._id} video={video} />;
           })}

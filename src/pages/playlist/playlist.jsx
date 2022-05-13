@@ -1,13 +1,9 @@
 import "../playlist/playlist.css";
 import { useFilterContext } from "../../contexts/filterContext";
 import { useNavigate } from "react-router-dom";
-//import { useState } from "react";
 
 const PlayListCard = ({ video }) => {
   const { videoListDispatch } = useFilterContext();
-  //   const [showOnClick, setShowOnClick] = useState({
-  //     modal: false,
-  //   });
   const navigate = useNavigate();
   return (
     <div
