@@ -1,0 +1,114 @@
+
+
+.modal_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(103 120 104 / 70%);
+    z-index: 1;
+    
+}
+.modal{
+    width: 16rem;
+    height: 22rem;
+    background-color: rgb(105, 92, 92);
+    border-radius: 10px;
+    color: var(--primary-font-colour);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+    
+  
+}
+.modal_input{
+    display: flex;
+    justify-content: center;
+    margin-left: -6%;
+    position: absolute;
+    bottom: 14rem;
+
+
+}
+.btn-info{
+    position: absolute;
+    bottom: 10rem;
+    margin-left: -3%;
+    background-color: var( --cta-color);
+    color: var(--primary-font-colour);
+}
+.dlt_icon{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 10px;
+}
+.new_playlist_contanier{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 1.6rem;
+    justify-content: flex-start;
+    margin-left: 10%;
+   
+
+   
+}
+@media only screen and (max-width:600px){
+    .modal_container{
+     top: 1rem;
+    } 
+    .modal{
+        width: 16rem;
+        height: 22rem;
+        background-color: rgb(105, 92, 92);
+        border-radius: 10px;
+        color: var(--primary-font-colour);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 1;
+        
+      
+    }
+    .modal_input{
+        margin-left: -24%;
+        position: absolute;
+        bottom: 15rem;
+    
+    
+    }
+    .btn-info{
+        bottom: 12rem;
+        margin-left: -12%;
+    }
+    .dlt_icon{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 10px;
+    }
+    .new_playlist_contanier{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 1.6rem;
+        justify-content: flex-start;
+        margin-left: 10%;
+       
+    
+       
+    }
+
+}

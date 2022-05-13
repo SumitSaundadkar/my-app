@@ -1,4 +1,4 @@
-.Like_container{
+.history_container{
     display:flex;
      width: 75%;
     height: 25rem;
@@ -11,10 +11,9 @@
      left: 18%;
      color: var(--hover-bg);
 }
-.like_video{
+.history_video{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 16px;
     position: absolute;
     top: 15%;
@@ -23,7 +22,7 @@
 
 }
 @media only screen and (max-width: 600px){
-    .Like_container{
+    .history_container{
         top: 35%;
         left: 2%;
         flex-direction: column;
@@ -35,7 +34,7 @@
        font-size: 1.6rem;
        margin: 5px; 
     }
-    .like_video{
+    .history_video{
         flex-direction: column;
 }
 

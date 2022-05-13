@@ -1,4 +1,4 @@
-.Like_container{
+.inner_container{
     display:flex;
      width: 75%;
     height: 25rem;
@@ -11,10 +11,9 @@
      left: 18%;
      color: var(--hover-bg);
 }
-.like_video{
+.inner_video{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 16px;
     position: absolute;
     top: 15%;
@@ -22,23 +21,12 @@
     
 
 }
-@media only screen and (max-width: 600px){
-    .Like_container{
-        top: 35%;
-        left: 2%;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 5%;
-        
-    }
-    h1{
-       font-size: 1.6rem;
-       margin: 5px; 
-    }
-    .like_video{
-        flex-direction: column;
+.a{
+    color: var(--primary-font-colour);
 }
-
-
-
+@media only screen and (max-width: 600px){
+    .inner_container{
+        top: 35%;
+        left: 8%;
+    }
 }

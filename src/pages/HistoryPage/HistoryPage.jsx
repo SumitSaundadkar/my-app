@@ -1,21 +1,21 @@
-import "../LikePage/likepage.css";
+import "../HistoryPage/history.css";
 import { NavBar } from "../../components/Navbar/Navbar";
 import { SideBar } from "../../components/sidebar/Sidebar";
 import { VideoCard } from "../../components/videocard/Videocard";
 import { useFilterContext } from "../../contexts/filterContext";
 
-const LikePage = () => {
+const HistoryPage = () => {
   const { videoListState } = useFilterContext();
-  const historyList = [...videoListState.history];
+  const likeVideoList = [...videoListState.likedVideo].reverse();
 
   return (
     <div>
       <NavBar />
       <SideBar />
-      <div className="Like_container">
-        <h1>Like</h1>
-        <div className="like_video">
-          {historyList.map((video) => (
+      <div className="history_container">
+        <h1>History</h1>
+        <div className="history_video">
+          {likeVideoList.map((video) => (
             <VideoCard video={video} />
           ))}
         </div>
@@ -23,4 +23,4 @@ const LikePage = () => {
     </div>
   );
 };
-export { LikePage };
+export { HistoryPage };
