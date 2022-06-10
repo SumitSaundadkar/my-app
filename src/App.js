@@ -9,6 +9,8 @@ import { WatchLaterPage } from "./pages/watchLater/Watchlater";
 import { PlayListCraetePage } from "./components/playlistmodalcard/createPlaylistPage";
 import { InnerPlayListPage } from "./pages/innerplaylistpage/innerPlayList";
 import { HistoryPage } from "./pages/HistoryPage/HistoryPage";
+import { LoginPage } from "./pages/Login/Login";
+import { SignUpPage } from "./pages/SignUp/signUp";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           element={<InnerPlayListPage />}
         />
         <Route path="/history" element={<HistoryPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignUpPage />} />
       </Routes>
     </div>
   );
